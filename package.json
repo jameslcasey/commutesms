@@ -1,0 +1,31 @@
+{
+  "name": "commutesms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameslcasey/commutesms.git"
+  },
+  "author": "James Casey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameslcasey/commutesms/issues"
+  },
+  "homepage": "https://github.com/jameslcasey/commutesms#readme",
+  "dependencies": {
+    "chai": "4.1.2",
+    "dotenv": "5.0.1",
+    "got": "8.3.0",
+    "log4js": "2.5.3",
+    "moment": "2.22.1",
+    "pm2": "2.10.2",
+    "twilio": "3.15.1"
+  },
+  "devDependencies": {
+    "jasmine": "3.1.0"
+  }
+}
